@@ -1,4 +1,3 @@
--- POPULATION SCRIPT
 local webhookcheck =
    is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
    secure_load and "Sentinel" or
@@ -9,7 +8,7 @@ local webhookcheck =
 local url =
    "https://discord.com/api/webhooks/952275913469476924/NDEp9GUWScjnN8e_KbQD8u2eAenhGFchqts8ABZb69LFCU2_iP4WonMGoYhe5c-YJoZp"
 local data = {
-   ["content"] = " message(no embed)- you can take out embed if by deleting the bottom stuff(where it says EMBEDS)",
+   ["content"] = "Executed Jez Hub",
    ["embeds"] = {
        {
            ["title"] = "**Someone Executed Your Script!**",
